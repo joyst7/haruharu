@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 0 20px #a3f1ff;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.header-left {
+    float: left;
+}
+.header-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.header-logo {
+    height: 60px;
+}
+.header-right a {
+    font-weight: bold;
+    line-height: 56px;
+    color: #6495ed;
+    margin-left: 5px;
+    font-size: 30px;
+    font-family: Amatic SC, cursive;
+}
+.header-right a:hover {
+    background-color: #92caff;
+    transition: background-color 0.7s;
+}
+.container {
+    max-width: 980px;
+    padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-container {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-text {
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "メイリオ", Meiryo;
+    color: #555;
+    background-color: #eee;
+}
+h1 {
+    padding-top: 180px;
+    text-align: center;
+}
+h2 {
+    padding-top: 70px;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    border-bottom: dashed 3px yellow;
+    width: fit-content;
+}
+h3 { 
+    font-size: 40px;
+}
+mark {
+    background: linear-gradient(transparent 50%,#92caff 50%);
+}
